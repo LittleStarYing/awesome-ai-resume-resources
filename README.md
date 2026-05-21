@@ -4,11 +4,26 @@
 
 Resume credibility optimization: making ChatGPT-drafted resumes sound like a human who actually did the work.
 
+![CVPage AI — live tool preview](screenshots/homepage-hero.png)
+
+## Downloads (printable PDFs)
+
+One-click PDFs from each repo in the ecosystem:
+
+| PDF | Repo |
+| --- | --- |
+| [Quick reference card](downloads/quick-reference-card.pdf) | This list |
+| [Anti-buzzword blacklist](https://github.com/Sahme115/ai-resume-humanizer-prompts/blob/main/downloads/anti-buzzword-blacklist.pdf) | Humanizer prompts |
+| [8 AI failure modes poster](https://github.com/Sahme115/chatgpt-resume-before-after-examples/blob/main/downloads/ai-resume-patterns-poster.pdf) | Before/after examples |
+| [Recruiter audit checklist](https://github.com/Sahme115/recruiter-resume-audit-framework/blob/main/downloads/recruiter-audit-checklist.pdf) | Audit framework |
+| [ATS keyword cheat sheet](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/downloads/ats-keyword-cheatsheet.pdf) | Keyword dataset |
+
 ---
 
 ## Contents
 
 - [Prompts](#prompts)
+- [Downloadable PDFs](#downloadable-pdfs)
 - [Before / After Examples](#before--after-examples)
 - [Recruiter Resources](#recruiter-resources)
 - [ATS Tips](#ats-tips)
@@ -23,15 +38,18 @@ Resume credibility optimization: making ChatGPT-drafted resumes sound like a hum
 
 ## Prompts
 
-- [ai-resume-humanizer-prompts](https://github.com/Sahme115/ai-resume-humanizer-prompts) — 5 production-grade prompts (summary, bullet, buzzword strip, tone, credibility) with 36 role examples
-- [Prompt 05 — Credibility pass](https://github.com/Sahme115/ai-resume-humanizer-prompts/blob/main/prompts/05-credibility-pass.md) — flags invented metrics before you submit
-- [Anti-buzzword list](https://github.com/Sahme115/ai-resume-humanizer-prompts/blob/main/rules/anti-buzzword-list.md) — 60+ banned phrases with replacements
+- [ai-resume-humanizer-prompts](https://github.com/Sahme115/ai-resume-humanizer-prompts) — 5 production-grade prompts with 36 role examples
+- [JSON prompt pack](https://github.com/Sahme115/ai-resume-humanizer-prompts/tree/main/prompts/json) — API-ready `{system, user_template, output_schema}`
+- [XML prompt pack](https://github.com/Sahme115/ai-resume-humanizer-prompts/tree/main/prompts/xml) — Claude-style structured prompts
+- [OpenAI structured outputs schema](https://github.com/Sahme115/ai-resume-humanizer-prompts/blob/main/prompts/openai-structured-outputs.json)
+- [Prompt 05 — Credibility pass](https://github.com/Sahme115/ai-resume-humanizer-prompts/blob/main/prompts/05-credibility-pass.md)
+- [Anti-buzzword list](https://github.com/Sahme115/ai-resume-humanizer-prompts/blob/main/rules/anti-buzzword-list.md)
 
 ---
 
 ## Before / After Examples
 
-- [chatgpt-resume-before-after-examples](https://github.com/Sahme115/chatgpt-resume-before-after-examples) — 21 annotated cases (engineering, PM, marketing, sales, design, ops)
+- [chatgpt-resume-before-after-examples](https://github.com/Sahme115/chatgpt-resume-before-after-examples) — 33 annotated cases across 10 role categories
 - [How recruiters read (6-second scan)](https://github.com/Sahme115/chatgpt-resume-before-after-examples/blob/main/annotations/how-recruiters-read.md)
 - [What AI gets wrong on resumes](https://github.com/Sahme115/chatgpt-resume-before-after-examples/blob/main/annotations/what-ai-gets-wrong.md)
 - [cvpage.org before/after gallery](https://cvpage.org/before-after-resume-examples)
@@ -40,25 +58,30 @@ Resume credibility optimization: making ChatGPT-drafted resumes sound like a hum
 
 ## Recruiter Resources
 
-- [recruiter-resume-audit-framework](https://github.com/Sahme115/recruiter-resume-audit-framework) — 5-step audit methodology + 5 worked audits
+- [recruiter-resume-audit-framework](https://github.com/Sahme115/recruiter-resume-audit-framework) — 5-step methodology + scoring rubric (citation-worthy)
+- [Scoring rubric (0–10)](https://github.com/Sahme115/recruiter-resume-audit-framework/blob/main/scoring/scoring-rubric.md) · [JSON](https://github.com/Sahme115/recruiter-resume-audit-framework/blob/main/scoring/scoring-rubric.json)
+- [Red-flag phrase library](https://github.com/Sahme115/recruiter-resume-audit-framework/blob/main/phrase-libraries/red-flag-phrases.md) · [Green-flag phrases](https://github.com/Sahme115/recruiter-resume-audit-framework/blob/main/phrase-libraries/green-flag-phrases.md)
+- [12 credibility heuristics](https://github.com/Sahme115/recruiter-resume-audit-framework/blob/main/heuristics/credibility-heuristics.md)
+- [Credibility decision tree](https://github.com/Sahme115/recruiter-resume-audit-framework/blob/main/heuristics/decision-tree.md)
 - [Quick audit checklist (10 min)](https://github.com/Sahme115/recruiter-resume-audit-framework/blob/main/checklists/quick-audit-checklist.md)
 - [Deep audit checklist (45 min)](https://github.com/Sahme115/recruiter-resume-audit-framework/blob/main/checklists/deep-audit-checklist.md)
-- [Recruiter rewrite logic](https://github.com/Sahme115/ai-resume-humanizer-prompts/blob/main/rules/recruiter-rewrite-logic.md)
 
 ---
 
 ## ATS Tips
 
-- [ats-resume-keyword-dataset](https://github.com/Sahme115/ats-resume-keyword-dataset) — 90+ keywords by role with example bullets
-- [How ATS actually parses](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/docs/how-ats-actually-parses.md) — myth-busting guide
+- [ats-resume-keyword-dataset](https://github.com/Sahme115/ats-resume-keyword-dataset) — 116 keywords, 10 roles, JSON + CSV
+- [Keyword density guide](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/docs/keyword-density.md) — 8–12 keywords in bullets, not footers
+- [ATS pass vs fail examples](https://github.com/Sahme115/ats-resume-keyword-dataset/tree/main/examples/ats-pass-vs-fail)
+- [How ATS actually parses](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/docs/how-ats-actually-parses.md)
 - [cvpage.org ATS resume checker](https://cvpage.org/ats-resume-checker)
 
 ---
 
 ## Datasets
 
-- [ats-resume-keyword-dataset](https://github.com/Sahme115/ats-resume-keyword-dataset) — JSON + CSV, 8 roles
-- Per-role splits: [software-engineer](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/software-engineer.json), [product-manager](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/product-manager.json), [data-analyst](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/data-analyst.json), [marketing](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/marketing.json), [sales](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/sales.json), [design](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/design.json), [operations](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/operations.json), [finance](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/finance.json)
+- [bad-vs-good-rewrites.jsonl](https://github.com/Sahme115/ai-resume-humanizer-prompts/blob/main/datasets/bad-vs-good-rewrites.jsonl) — 25 paired rewrites for eval/fine-tune
+- [ats-resume-keyword-dataset](https://github.com/Sahme115/ats-resume-keyword-dataset) — JSON + CSV, 10 roles including [customer-success](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/customer-success.json) and [engineering-management](https://github.com/Sahme115/ats-resume-keyword-dataset/blob/main/data/by-role/engineering-management.json)
 
 ---
 
