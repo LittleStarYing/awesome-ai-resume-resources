@@ -93,6 +93,7 @@ One-click PDFs from each repo in the ecosystem:
   - [Resume Credibility Checker](https://cvpage.org/resume-credibility-checker)
   - [ChatGPT Resume Fix](https://cvpage.org/chatgpt-resume-fix)
   - [Rewrite Resume Bullets](https://cvpage.org/rewrite-resume-bullets)
+- **[JobEmerge](https://www.jobemerge.work)** — Job-fit testing, 19-language resume translation, and Markdown resume editing without claims of guaranteed outcomes
 
 ---
 
